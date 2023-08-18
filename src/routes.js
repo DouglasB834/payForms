@@ -10,7 +10,7 @@ payRouter.post("/carts", CartsController.create);
 payRouter.patch("/carts/:id", CartsController.update);
 payRouter.delete("/carts/:id", CartsController.delete);
 
-//Transations
+// rotas para pagamentos Transations 
 payRouter.post("/transations", TransactionsController.create);
 
 export default payRouter;
